@@ -1,0 +1,56 @@
+<p>sales-transaction works!</p>
+<body>
+    <header>
+        <h1>Sales Management</h1>
+    </header>
+    <main>
+        <section id="sales-form">
+            <h2>Record New Sale</h2>
+            <form id="record-sale-form">
+                <label for="sale-id">Sale ID:</label>
+                <input type="text" id="sale-id" name="sale-id" required>
+
+                <label for="item-id">Item ID:</label>
+                <input type="text" id="item-id" name="item-id" required>
+
+                <label for="customer-id">Customer ID:</label>
+                <input type="text" id="customer-id" name="customer-id" required>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" required>
+
+                <label for="sale-date">Sale Date:</label>
+                <input type="date" id="sale-date" name="sale-date" required>
+
+                <label for="total-amount">Total Amount:</label>
+                <input type="number" id="total-amount" name="total-amount" step="0.01" required>
+
+                <button type="submit">Record Sale</button>
+            </form>
+        </section>
+        <section id="sales-list">
+            <h2>Sales List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sale ID</th>
+                        <th>Item ID</th>
+                        <th>Customer ID</th>
+                        <th>Quantity</th>
+                        <th>Sale Date</th>
+                        <th>Total Amount</th>
+                    </tr>
+                </thead>
+                <tbody id="sales-table-body">
+                    <!-- Sales records will be added here dynamically -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sales Management System</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+

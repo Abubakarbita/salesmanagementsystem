@@ -1,0 +1,103 @@
+/* src/app/inventory-management/inventory-management.component.css */
+
+/* Apply background image to the body of the component */
+body {
+    background-image: url('/assets/Picturezangu/homeback.jpg'); /* Ensure the path is correct */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh; /* Ensure the container takes up the full viewport height */
+    width: 100%;
+    margin: 0; /* Remove default margin */
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main content styling */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Headings styling */
+h1, h2 {
+    color: #333;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form label styling */
+form label {
+    margin-top: 0.5rem;
+}
+
+/* Form input styling */
+form input {
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Form button styling */
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center; 
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
